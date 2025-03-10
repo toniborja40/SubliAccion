@@ -1,0 +1,93 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "Buenos días",
+                "Buenas tardes",
+                "Buenas noches",
+                "¿Qué tal?",
+                "¿Cómo estás?"
+            ],
+            "responses": [
+                "¡Hola! ¿Cómo puedo ayudarte hoy?",
+                "¡Hola! ¿En qué puedo asistirte?",
+                "¡Buenas! ¿Cómo puedo ayudarte?",
+                "¡Hola! ¿Qué tal? ¿En qué puedo ayudarte?"
+            ]
+        },
+        {
+            "tag": "productos",
+            "patterns": [
+                "¿Qué productos tienen?",
+                "¿Qué artículos vendes?",
+                "¿Qué productos ofrecen?",
+                "¿Qué artículos personalizan?"
+            ],
+            "responses": [
+                "Tenemos tazas, camisas, gorras, llaveros, cojines y termos personalizados."
+            ]
+        },
+        {
+            "tag": "precios",
+            "patterns": [
+                "¿Cuánto cuesta una gorra?",
+                "¿Cuál es el precio de una taza?",
+                "¿Cuánto vale una camiseta?",
+                "¿Qué precio tiene un llavero?",
+                "¿Cuánto cuesta todo?",
+                "¿Cuáles son los precios de los productos?"
+            ],
+            "responses": [
+                "Las tazas cuestan $10, las camisas $15, las gorras $12, los llaveros $5 y los cojines $8.",
+                "Los precios de los productos son los siguientes: Tazas $10, Camisas $15, Gorras $12, Llavero $5, Cojines $8."
+            ]
+        },
+        {
+            "tag": "horarios",
+            "patterns": [
+                "¿Cuál es el horario de trabajo?",
+                "¿A qué hora abren?",
+                "¿Cuál es su horario de atención?"
+            ],
+            "responses": [
+                "Nuestro horario es de lunes a viernes de 9:00 AM a 6:00 PM."
+            ]
+        },
+        {
+            "tag": "metodos_pago",
+            "patterns": [
+                "¿Qué métodos de pago aceptan?",
+                "¿Cómo puedo pagar?",
+                "¿Qué formas de pago tienen?"
+            ],
+            "responses": [
+                "Aceptamos pagos en efectivo, tarjeta de crédito y transferencia bancaria."
+            ]
+        },
+        {
+            "tag": "ubicacion",
+            "patterns": [
+                "¿Dónde están ubicados?",
+                "¿Cuál es la dirección de su local?",
+                "¿Dónde los encuentro?"
+            ],
+            "responses": [
+                "Nuestra tienda está ubicada en el corazón de la ciudad, específicamente en la Calle 6, Carrera 12, Local 25. ¡Te esperamos!."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Gracias",
+                "Adiós",
+                "Nos vemos",
+                "Hasta luego"
+            ],
+            "responses": [
+                "¡Gracias a ti! ¡Nos vemos pronto!"
+            ]
+        }
+    ]
+}
